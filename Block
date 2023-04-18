@@ -1,0 +1,18 @@
+
+public class Block {
+​
+    private static String person;
+    private static int age;
+    private static String a;
+​
+    static {
+            person = "I am ";
+            age = 27;
+            a = " years old.";
+            System.out.println("How old are you?");
+        }
+    public static void main (String [] args) {
+        System.out.println(person + age + a);
+    }
+​
+}
